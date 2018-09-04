@@ -1,0 +1,23 @@
+vi:
+  static_pages:
+    rails_tutorial: "Ung dung Ruby On Rails"
+    sample_app: "Ung dung mau"
+    home: "Trang chu"
+    help: "Tro giup"
+    about: "Thong tin"
+    contact: "Lien he"
+    home_content_html: "Day la trang chu cho ung dung <a href=\"http://www.railstutorial.org\">Rails</a>."
+    contact_content_html: "Lien he de xem them nhieu ung dung khac <a href=\"http://www.railstutorial.org/contact\">Lien he</a>."
+    about_content_html: "<a href=\"http://www.railstutorial.org/\"><em>Ruby on Rails
+      Tutorial</em></a> la mot
+      <a href=\"http://www.railstutorial.org/book\">quyen sach</a> va
+      <a href=\"http://screencasts.railstutorial.org/\">screencast series</a>
+      huong dan lap trinh voi
+      <a href=\"http://rubyonrails.org/\">Ruby on Rails</a>.
+      Day la ung dung mau"
+    help_content_html: "Huong dan o
+        <a href=\"http://www.railstutorial.org/help\">Rails Tutorial help section</a>.
+        De nhan duoc huong dan cho ung dung mau nay
+        <a href=\"http://www.railstutorial.org/book\"><em>Ruby on Rails Tutorial</em>
+        book</a>."
+
