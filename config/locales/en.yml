@@ -24,6 +24,10 @@ en:
     news: "News"
     header:
       log_in: "Log in"
+      log_out: "Log out"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
     footer:
       content_html: "The <a href=\"http://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"http://www.michaelhartl.com/\">Michael Hartl</a>"
   user:
@@ -33,7 +37,14 @@ en:
       content: "This will be a signup page for new users."
       create: "Create my account"
       confirm: "Confirmation"
+      new_user_question: "New user?"
     alert:
       error: 
         one: The form contains %{count} error.
         other: The form contains %{count} errors.
+      success:
+        login: "Login success"
+        logout: "Logout success"
+  sessions:
+    create:
+      invalid_email_or_password: "Invalid email/password combination"
