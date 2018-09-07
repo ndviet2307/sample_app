@@ -6,3 +6,5 @@ user:
     case_sensitive: false
   password:
     length: 6
+  gravatar:
+    size: 80
