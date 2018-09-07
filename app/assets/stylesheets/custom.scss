@@ -115,8 +115,8 @@ aside {
     margin-top: 20px;
   }
   section {
-    padding: 10px 0;
     margin-top: 20px;
+    padding: 10px 0;
     &:first-child {
       border: 0;
       padding-top: 0;
@@ -128,10 +128,10 @@ aside {
     }
     h1 {
       font-size: 1.4em;
-      text-align: left;
       letter-spacing: -1px;
       margin-bottom: 3px;
       margin-top: 0;
+      text-align: left;
     }
   }
 }
@@ -149,8 +149,8 @@ aside {
 
 input, textarea, select, .uneditable-input {
   border: 1px solid $gray-weight-light;
-  width: 100%;
   margin-bottom: 15px;
+  width: 100%;
   @include box_sizing;
 }
 
@@ -171,4 +171,17 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin: -10px 0 10px 0;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
