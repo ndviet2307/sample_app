@@ -1,0 +1,8 @@
+user:
+  name:
+    length: 50
+  email:
+    length: 50
+    case_sensitive: false
+  password:
+    length: 6
