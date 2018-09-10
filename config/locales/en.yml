@@ -2,7 +2,7 @@ en:
   static_pages:
     rails_tutorial: "Ruby On Rails Tutorial"
     sample_app: "Sample App"
-    sample_app_welcome: "Welcome to the Sample App"
+    sample_app_welcome: "Welcome to the Sample App!"
     home: "Home"
     help: "Help"
     about: "About"
@@ -17,16 +17,23 @@ en:
       <a href=\"http://rubyonrails.org/\">Ruby on Rails</a>.
       This is the sample application for the tutorial."
     help_content_html: "Get help on the Ruby on Rails Tutorial at the
-        <a href=\"http://www.railstutorial.org/help\">Rails Tutorial help section</a>.
-        To get help on this sample app, see the
-        <a href=\"http://www.railstutorial.org/book\"><em>Ruby on Rails Tutorial</em>
-        book</a>."
-    signup:
-      title: "Sign up"
-      now: "Sign up now!"
-      content: "This will be a signup page for new users."
+      <a href=\"http://www.railstutorial.org/help\">Rails Tutorial help section</a>.
+      To get help on this sample app, see the
+      <a href=\"http://www.railstutorial.org/book\"><em>Ruby on Rails Tutorial</em>
+      book</a>."
     news: "News"
     header:
       log_in: "Log in"
     footer:
       content_html: "The <a href=\"http://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"http://www.michaelhartl.com/\">Michael Hartl</a>"
+  user:
+    signup:
+      title: "Sign up"
+      now: "Sign up now!"
+      content: "This will be a signup page for new users."
+      create: "Create my account"
+      confirm: "Confirmation"
+    alert:
+      error: 
+        one: The form contains %{count} error.
+        other: The form contains %{count} errors.
