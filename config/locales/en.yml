@@ -48,3 +48,5 @@ en:
   sessions:
     create:
       invalid_email_or_password: "Invalid email/password combination"
+    new:
+      remember_me: "Remember me on this computer"
