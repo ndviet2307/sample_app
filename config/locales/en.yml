@@ -31,6 +31,7 @@ en:
     footer:
       content_html: "The <a href=\"http://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"http://www.michaelhartl.com/\">Michael Hartl</a>"
   user:
+    title: "Users"
     signup:
       title: "Sign up"
       now: "Sign up now!"
@@ -40,11 +41,24 @@ en:
       new_user_question: "New user?"
     alert:
       error: 
-        one: The form contains %{count} error.
-        other: The form contains %{count} errors.
+        one: "The form contains %{count} error."
+        other: "The form contains %{count} errors."
+        login: "Please log in."
       success:
         login: "Login success"
         logout: "Logout success"
+        update: "Profile updated"
+        delete: "User deleted"
+    edit:
+      title: "Edit user"
+      button_text: "Save change"
+      change_avatar: "Change avatar"
+      header: "Update your profile"
+    delete:
+      title: "Delete"
+      confirm: "You sure?"
+    index:
+      title: "All users"
   sessions:
     create:
       invalid_email_or_password: "Invalid email/password combination"
