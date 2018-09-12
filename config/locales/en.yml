@@ -62,5 +62,16 @@ en:
   sessions:
     create:
       invalid_email_or_password: "Invalid email/password combination"
+      not_activated: "Account not activated. Check your email for the activation link."
+      please_check_mail: "Please check your email to activate your account."
     new:
       remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+  account_activations:
+    edit:
+      activated: "Account activated"
+      invalid_link: "Invalid activation link"
