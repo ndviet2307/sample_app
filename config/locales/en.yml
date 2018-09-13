@@ -66,12 +66,36 @@ en:
       please_check_mail: "Please check your email to activate your account."
     new:
       remember_me: "Remember me on this computer"
+      forgot_password: "(Forgot password?)"
   user_mailer:
     account_activation:
       subject: "Account activation"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      subject: "Password reset"
+      click_to_reset: "To reset your password click the link below:"
+      reset_password: "Reset password"
+      expire_in: "This link will expire in two hours."
+      ignore_if_not: "If you did not request your password to be reset,
+        please ignore this email and
+        your password will stay as it is."
   account_activations:
     edit:
       activated: "Account activated"
       invalid_link: "Invalid activation link"
+  password_resets:
+    new:
+      submit: "Submit"
+      title: "Forgot password"
+    create:
+      email_sent: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      title: "Reset password"
+      update_password: "Update password"
+      confirm: "Confirm password"
+    update:
+      has_been_reset: "Password has been reset."
+      expired: "Password reset has expired."
+      empty: "can't be empty" 
