@@ -25,6 +25,8 @@ class UsersController < ApplicationController
 
   def show
     redirect_to signup_path unless @user
+    @microposts = @user.microposts.paginate page: params[:page],
+      per_page: Settings.user.per_page
   end
 
   def edit; end
@@ -45,13 +47,6 @@ class UsersController < ApplicationController
   end
 
   private
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "user.alert.error.login"
-    redirect_to login_url
-  end
 
   def correct_user
     @user = User.find_by id: params[:id]

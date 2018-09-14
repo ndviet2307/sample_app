@@ -104,11 +104,18 @@ en:
   microposts:
     micropost:
       post_at: "Posted at %{time} ago"
+      delete: "Delete"
     create:
       created: "Micropost created"
   shared:
+    error_messages:
+      has_error:
+        one: "The form contains %{count} error"
+        other: "The form contains %{count} errors" 
     micropost_form:
+      image_over_max_size: "Maximum file size is %{size} MB. Please choose a smaller file."
       compose_new: "Compose new micropost..."
       post: "Post"
     user_info:
       view_profile: "View my profile"
+      micropost: "Micropost"

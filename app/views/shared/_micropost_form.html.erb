@@ -1,0 +1,13 @@
+<%= form_for @micropost do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: t(".compose_new") %>
+    <%= hidden_field_tag :max_size, Settings.microposts.upload_max_size %>
+    <%= hidden_field_tag :over_max_size_error, t(".image_over_max_size",
+      size: Settings.microposts.upload_max_size) %>
+  </div>
+  <%= f.submit t(".post"), class: "btn btn-primary" %>
+  <span class="picture">
+    <%= f.file_field :picture %>
+  </span>
+<% end %>
