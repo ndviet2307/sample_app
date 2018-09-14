@@ -1,9 +1,11 @@
 en:
+  less_than_upload_max_size: "should be less than %{size} MB"
   static_pages:
     rails_tutorial: "Ruby On Rails Tutorial"
     sample_app: "Sample App"
     sample_app_welcome: "Welcome to the Sample App!"
     home: "Home"
+    feed: "Micropost feed"
     help: "Help"
     about: "About"
     contact: "Contact"
@@ -98,4 +100,15 @@ en:
     update:
       has_been_reset: "Password has been reset."
       expired: "Password reset has expired."
-      empty: "can't be empty" 
+      empty: "can't be empty"
+  microposts:
+    micropost:
+      post_at: "Posted at %{time} ago"
+    create:
+      created: "Micropost created"
+  shared:
+    micropost_form:
+      compose_new: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_profile: "View my profile"

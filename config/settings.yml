@@ -11,3 +11,7 @@ user:
   per_page: 10
   reset_password:
     expire: 2
+microposts:
+  content:
+    max_length: 140
+  upload_max_size: 5
