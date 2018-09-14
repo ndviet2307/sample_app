@@ -15,3 +15,6 @@ microposts:
   content:
     max_length: 140
   upload_max_size: 5
+image_resize: [400, 400]
+gravatar:
+  size: 50

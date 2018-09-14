@@ -15,7 +15,7 @@ class User < ApplicationRecord
     length: {minimum: Settings.user.password.length}
 
   def feed
-    microposts
+    microposts.created_at_desc
   end
 
   def self.digest string
