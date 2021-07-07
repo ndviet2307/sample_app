@@ -119,3 +119,17 @@ en:
     user_info:
       view_profile: "View my profile"
       micropost: "Micropost"
+    stats:
+      following: "Following"
+      followers: "Followers"
+  users:
+    follow:
+      submit: "Follow"
+    following: 
+      header_text: "Following"
+    followers:
+      header_text: "Followers"
+    unfollow:
+      submit: "Unfollow"
+    show:
+      micropost_count: "Micropost (%{count})"
